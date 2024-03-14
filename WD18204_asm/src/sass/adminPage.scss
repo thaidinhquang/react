@@ -1,0 +1,166 @@
+$table-border-color: #333;
+$table-font-family: Arial, sans-serif;
+$table-font-size: 14px;
+$table-border-radius: 10px;
+$table-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+$table-margin: 20px;
+$table-header-bg-color: #ffcc00;
+$table-header-color: #fff;
+$table-header-font-weight: bold;
+$table-header-padding: 10px;
+$table-header-text-transform: uppercase;
+$table-header-letter-spacing: 1px;
+$table-header-border-top: 1px solid #fff;
+$table-header-border-bottom: 1px solid #ccc;
+$table-even-row-bg-color: #f2f2f2;
+$table-hover-row-bg-color: #ffedcc;
+$table-td-bg-color: #fff;
+$table-td-padding: 10px;
+$table-td-border-bottom: 1px solid #ccc;
+$table-td-font-weight: bold;
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: $table-border-color;
+  font-family: $table-font-family;
+  font-size: $table-font-size;
+  text-align: left;
+  border-radius: $table-border-radius;
+  overflow: hidden;
+  box-shadow: $table-box-shadow;
+  margin: auto;
+  margin-top: $table-margin;
+  margin-bottom: $table-margin;
+
+  th {
+    background-color: $table-header-bg-color;
+    color: $table-header-color;
+    font-weight: $table-header-font-weight;
+    padding: $table-header-padding;
+    text-transform: $table-header-text-transform;
+    letter-spacing: $table-header-letter-spacing;
+    border-top: $table-header-border-top;
+    border-bottom: $table-header-border-bottom;
+  }
+
+  tr {
+    &:nth-child(even) {
+      td {
+        background-color: $table-even-row-bg-color;
+      }
+    }
+    &:hover {
+      td {
+        background-color: $table-hover-row-bg-color;
+      }
+    }
+    td {
+      background-color: $table-td-bg-color;
+      padding: $table-td-padding;
+      border-bottom: $table-td-border-bottom;
+      font-weight: $table-td-font-weight;
+    }
+  }
+}
+
+.Button-Add{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: rgb(0, 128, 255);
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+  &:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+  }
+}
+.Button-Edit{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: rgb(255, 221, 0);
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+  &:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+  }
+}
+.Button-Delete{
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: rgb(255, 38, 0);
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+  &:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+  }
+}
+
+$input-border: #ccc;
+$input-padding: 12px 20px;
+$input-margin: 8px 0;
+$input-background: #4CAF50;
+$input-hover-background: #45a049;
+
+input[type=text], select {
+  width: 100%;
+  padding: $input-padding;
+  margin: $input-margin;
+  display: inline-block;
+  border: 1px solid $input-border;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.Submit{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background-color: rgb(0, 128, 255);
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+  &:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+  }
+}
+

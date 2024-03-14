@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": "2967",
+      "name": "343444",
+      "price": "3232323",
+      "image": "https://picsum.photos/200/300",
+      "description": "sasasasasas"
+    },
+    {
+      "id": "cd8e",
+      "name": "san pham Ae",
+      "price": "2322323",
+      "image": "https://picsum.photos/200/300",
+      "description": "232323"
+    },
+    {
+      "id": "3078",
+      "name": "2121",
+      "price": "12121",
+      "image": "https://picsum.photos/200/300",
+      "description": "12121"
+    }
+  ]
+}
